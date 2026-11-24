@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn>=0.30
+httpx>=0.27          # API tests (FastAPI TestClient)
+pytest>=8.0          # tests
+python-dotenv>=1.0   # optional: loads .env
+Pillow>=10.0          # frame rendering (always needed)
+moviepy>=1.0.3        # video assembly (optional: falls back to an animated GIF without it)
+imageio-ffmpeg>=0.4.9 # a bundled ffmpeg binary, so no system install is needed

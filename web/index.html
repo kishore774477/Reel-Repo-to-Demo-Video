@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reel · Turn a repo into a demo video</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+      <rect x="4" y="8" width="24" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="11" cy="16" r="4" fill="none" stroke="#3987e5" stroke-width="2"/>
+      <circle cx="21" cy="16" r="4" fill="none" stroke="#fab219" stroke-width="2"/>
+      <path d="M8 24 L11 20 L14 24 Z" fill="#2fb344"/>
+    </svg>
+    <div>
+      <div class="name">Reel</div>
+      <div class="tag">Turns a repo's README and screenshots into a short captioned demo video</div>
+    </div>
+  </div>
+  <div class="actions"><span id="wschip" class="chip"></span></div>
+</header>
+<main>
+  <nav class="tabs" id="tabs">
+    <button data-tab="build" class="active">Build</button>
+    <button data-tab="storyboard">Storyboard</button>
+    <button data-tab="video">Video</button>
+    <button data-tab="how">How it works</button>
+  </nav>
+  <div id="view"></div>
+</main>
+<div id="toast" class="toast hidden"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
